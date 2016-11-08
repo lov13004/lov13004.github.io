@@ -3,19 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>Whitewater Rafting Adventures | Dry Oar Rafting | Home</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Reenie+Beanie');
-        nav {background-color: #E0AC3E; color: #278089; font-family: 'IM Fell Great Primer SC', serif; font-size: 20px}
-        a {color: #278089; text-decoration: none}
-        #section1 {background-color: #E0AC3E; padding: .5em}
-        #section2 {background-color: #E0AC3E; padding: .5em}
-        #section3 {background-color: #E0AC3E; padding: .5em; text-align: center}
-        #footer {background-color: #E0AC3E; color: #E0473E; font-family: 'IM Fell Great Primer SC', serif; font-size: 15px}
-        h1 {color: #E0473E; font-family: 'Reenie Beanie', cursive; font-size: 35px; padding-top: 10px; padding-left: 15px; margin-top: .1em; margin-bottom: .2em;}
-        .P1,.P2,.P3 {color: #278089; font-family: 'IM Fell Great Primer SC', serif; font-size: 18px; padding-left: 10px; padding-right: 10px; margin-top: .25em}
-        #content {width: 960px; margin: 0 auto;}
-        body {margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px}
-        
+<style>
+    @import           url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Reenie+Beanie');
+    nav {background-color: #E0AC3E; color: #278089; max-width: 940px; font-family: 'IM Fell Great Primer SC', serif; font-size: 20px}
+    img {max-width: 100%;}
+    .fullwidth {max-width: 940px;margin-top: -16px}
+    section img {width: 100%}
+    a {color: #278089; text-decoration: none}
+    .rightcol1, .leftcol1, .rightcol2, .leftcol2 {max-width: 48%; flex: 1 0 15em; margin: .5em;}
+    .rightcol1 {margin-right: 1em}
+    .leftcol2 {margin-left: 1em}
+    #section1, #section2 {display: flex; flex-flow: row wrap; align-items: center;}
+    #section1, #section2, #section3 {max-width: 940px;}
+    #section1 {background-color: #E0AC3E;}
+    #section2 {background-color: #E0AC3E;}
+    #section3 {text-align: center}
+    #footer {background-color: #E0AC3E; color: #E0473E; height: 55px; max-width: 940px; font-family: 'IM Fell Great Primer SC', serif; font-size: 15px}
+    h1 {color: #E0473E; font-family: 'Reenie Beanie', cursive; font-size: 35px; padding-top: 10px; padding-left: 15px; margin-top: .1em; margin-bottom: .2em;}
+    .P1,.P2,.P3 {color: #278089; font-family: 'IM Fell Great Primer SC', serif; font-size: 18px; padding-left: 10px; padding-right: 10px; margin-top: .25em}
+    #content {width: 940px auto; margin: 0 auto;}
+    body {margin: 10px 10px 10px 10px;}
+    .copyright {padding: 2px; position: relative;}
+    .icons {display: flex; justify-content: flex-end; margin-top: -44px;}
+    .facebook {padding-right: 6px;}
+    .twitter {padding-right: 6px;}
+    .pinterest {padding-right: 7px;}
     </style>
     </head>
     
@@ -32,23 +44,26 @@
             <li><a href="index.html">Contact Us</a></li>
         </ul>
     </nav> 
-        <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River in the Grand Canyon" height="250" width="940">
+    
+    <div class="fullwidth">    
+    <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River in the Grand Canyon" height="250" width="940">
+    </div>
 
 <section id="section1"> 
-    <div class="leftcol">
+    <div class="leftcol1">
     <h1>The Beauty of Nature</h1>
         <p class="P1">We believe that there is <em>nothing</em> like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
         </div>
-    <div class="rightcol">
+    <div class="rightcol1">
         <img src="http://brothert.net/dryoar/images/salmon-boats.jpg" alt="View of a river in a canyon" height="315" width="420">
     </div>
     </section>
     
 <section id="section2">
-    <div class="leftcol">
+    <div class="leftcol2">
     <img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="Raft going through rapids" height="315" width="420">
     </div>
-    <div class="rightcol">
+    <div class="rightcol2">
         <h1>The Excitement of the River</h1>
         <p class="P2">That doesn't mean we don't also like rapids. <strong>Opposites in all things after all.</strong> We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
     </div>
@@ -62,12 +77,23 @@
     </section>
 
 <footer id="footer">
-    <p>&copy; 2016 Dry Oar || Ashley Smith<p>
-    <p>
-    <a href="http://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook Logo"></a>
-    <a href="http://twitter.com" target="_blank"><img src="twitter.png" alt="Twitter Logo"></a>
-    <a href="http://pinterest.com" target="_blank"><img src="pinterest.png" alt="Pinterest Logo"></a>
-    </p>
+    <div class="copyright">
+    <p>&copy; 2016 Dry Oar || Ashley Smith</p>
+    </div>
+    
+    <div class="icons">
+        
+    <div class="facebook">
+        <a href="http://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook Logo" height="40"></a>
+    </div>
+    <div class="twitter">
+        <a href="http://twitter.com" target="_blank"><img src="twitter.png" alt="Twitter Logo" height="40"></a>
+    </div>
+    <div class="pinterest">
+        <a href="http://pinterest.com" target="_blank"><img src="pinterest.png" alt="Pinterest Logo" height="40"></a>
+        </div>
+    </div>
+    
     </footer>
     </div>        
 </body>    
