@@ -47,16 +47,25 @@ img {
     margin-top: -19px;
 }
 
+#infobanner {
+    text-align: center;
+    margin-top: -5px;
+}
+
 section img {
     width: 100%
 }
     
-.rightcol1, .leftcol1, .rightcol2, .leftcol2 {
+.rightcol1, .leftcol1, .rightcol2, .leftcol2, .rightcol4, .leftcol4, .rightcol5, .leftcol5, .rightcol6, .leftcol6 {
     max-width: 48%;
     flex: 1 0 15em;
     margin: .5em;
 }
-    
+
+.rightcol5, .leftcol5, .rightcol6, .leftcol6{
+    text-align: center;
+}
+
 .rightcol1 {
     margin-right: 1em
 }
@@ -65,18 +74,22 @@ section img {
     margin-left: 1em
 }
     
-#section1, #section2 {
+#section1, #section2, #section4, #section5, #section6 {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     margin-top: -4px;
 }
-    
-#section1, #section2, #section3 {
+
+#section1, #section2, #section3, #section4, #section5, #section6 {
     max-width: 940px;
 }
     
-#section1, #section2 {
+#section2 {
+    background-color: #E0AC3E;
+}
+
+#section5 {
     background-color: #E0AC3E;
 }
 
