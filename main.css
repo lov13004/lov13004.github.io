@@ -31,11 +31,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #E0473E
+    color: #E0AC3E;
+    background-color: #E0473E;
 }
 
 nav a:active {
-    color: #E0473E
+    color: #E0AC3E;
+    background-color: #E0473E;
 }
     
 img {
@@ -49,7 +51,20 @@ img {
 
 #infobanner {
     text-align: center;
-    margin-top: -5px;
+    margin-top: -15px;
+}
+
+h2 {
+    color: #E0473E;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 45px;
+    margin-top: .6em;
+    margin-bottom: .2em;
+}
+
+#infobanner1 {
+    text-align: center;
+    margin-top: -15px;
 }
 
 section img {
@@ -74,22 +89,18 @@ section img {
     margin-left: 1em
 }
     
-#section1, #section2, #section4, #section5, #section6 {
+#section1, #section2, #section4, #section5, #section6, #section7, #section8{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     margin-top: -4px;
 }
 
-#section1, #section2, #section3, #section4, #section5, #section6 {
+#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8 {
     max-width: 940px;
 }
     
-#section2 {
-    background-color: #E0AC3E;
-}
-
-#section5 {
+#section2, #section4, #section5, #section7 {
     background-color: #E0AC3E;
 }
 
