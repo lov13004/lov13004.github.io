@@ -39,7 +39,15 @@ nav a:active {
     color: #E0AC3E;
     background-color: #E0473E;
 }
-    
+
+section a {
+    color: #278089;
+}
+
+section a:hover {
+    color: #E0AC3E;
+}
+
 img {
     max-width: 100%;
 }
